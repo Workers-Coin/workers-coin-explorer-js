@@ -2,10 +2,16 @@
 
 .explorer-search {
     margin-top: 5px;
+    margin-right: 35px;
 }
 
 #coinName {
     text-transform: capitalize;
+}
+
+.navbar-brand {
+    margin-right: 30px;
+    margin-top: -3px;
 }
 
 #coinIcon {
@@ -25,6 +31,9 @@ body {
     padding-top: 65px;
     padding-bottom: 80px;
     overflow-y: scroll;
+    background-image: url(../../../img/pool-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 #loading {
@@ -63,11 +72,11 @@ body {
     opacity: 0;
     height: 40px;
     line-height: 40px;
-    color: #e8e8e8;
-    font-size: 0.9em;
+    color: #FF5722;
     position: absolute;
     right: 10px;
-    top: 0;
+    top: 4px;
+    font-size: 1.9em;
 }
 
 footer {
@@ -104,7 +113,7 @@ table td {
 }
 
 .form-control {
-    background-color: #474747;
+    background-color: #18181d;
     color: #fff;
 }
 
@@ -125,7 +134,7 @@ table {
 }
 
 thead {
-    background-color: #1d1d1d;
+    background-color: #1E1E24;
 }
 
 #network-hash > thead > tr > th {
@@ -151,6 +160,6 @@ thead {
 #block-range-wrapper {
     font-size: 12px;
     line-height: 20px;
-    color: #404040;
+    color: #fff;
     float: right;
 }
