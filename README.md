@@ -1,11 +1,11 @@
-# TurtleCoin-Blockchain-Explorer
-Block explorer for TurtleCoin CryptoNote based cryptocurrency.
+# WorkersCoin-Blockchain-Explorer
+Block explorer for WorkersCoin CryptoNote based cryptocurrency.
 
 #### Installation
 
 1) It takes data from daemon turtlecoind. It should be accessible from the Internet. Run turtlecoind with open port as follows:
 ```bash
-./TurtleCoind --enable-cors="*" --enable-blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=11898
+./WorkersCoind --enable-cors="*" --enable-blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=18238
 ```
 2) Just upload to your website and change 'api' variable in config.js to point to your daemon.
 
